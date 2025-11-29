@@ -67,7 +67,7 @@ precompute_data.py \
     --folder pre_processed
 ```
 
-Above, ```full_prod``` refers to computing the Cartesian product of the graphs followed by the computation of their persistence diagrams.
+Above, ```full_prod``` refers to computing the Cartesian product of the graphs followed by the computation of its persistence diagram.
 We also support ```vertex_prod```, which denotes the vertex-level product filtration (as described in Theorem 4 of the paper).
 
 Then, we use the ```main.py``` script to train persistence-augmented GNNs. For example:
