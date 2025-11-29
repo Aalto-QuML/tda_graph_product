@@ -47,6 +47,17 @@ Linux-6.6.105+-x86_64-with-glibc2.35
 
 ## Graph Classification
 
+### Main dependencies
+```
+  pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric
+  pip install scikit-learn
+  pip install ogb
+  pip install networkx
+  pip install gudhi
+```
+
+### Usage 
+
 For the real-world graph classification experiments, we first preprocess the datasets augmented with persistence tuples, e.g.:
 ```
 precompute_data.py \
